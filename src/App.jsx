@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import AOS from "aos";
+import aos from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
@@ -12,7 +12,7 @@ import Footer from "./pages/footer";
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    aos.init({ duration: 1000 });
   }, []);
 
   return (

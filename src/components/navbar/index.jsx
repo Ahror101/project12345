@@ -34,6 +34,9 @@ export default function Navbar() {
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
+      <div>
+        
+      </div>
       <div className={`links ${isOpen ? "open" : ""}`}>
         <a onClick={toggleMenu} href="#home">
           Home
